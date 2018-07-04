@@ -7,3 +7,12 @@
       };
 
       alert(add(number1, number2));
+      var BMI = function(hieght,mass)
+      {
+      return mass/hieght;
+      };
+      var hieght = parseInt(prompt("enter your hieght:"));
+      var mass = parseInt(prompt("enter your mass:"));
+      {
+      alert("your mass body index is"+BMI(hieght,mass));
+      }
